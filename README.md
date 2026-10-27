@@ -1,14 +1,12 @@
-# azure-hub-spoke-network
+# Azure Hub-Spoke Network
 
-Azure portfolio repository for enterprise architecture, cloud transformation, and platform engineering.
+This repository captures an enterprise networking pattern with centralized security services and isolated spoke landing zones.
 
-## Scope
-
-- Azure solution architecture
-- Cloud migration and landing-zone design
-- Platform engineering, GitOps, and Kubernetes
-- Security, governance, and DevSecOps
-
-## Purpose
-
-This repository is intended as a reusable reference and portfolio asset for enterprise Azure delivery.
+```mermaid
+flowchart LR
+    A[Internet] --> B[Azure Firewall]
+    B --> C[Hub VNet]
+    C --> D[Spoke A]
+    C --> E[Spoke B]
+    C --> F[Private DNS]
+```
