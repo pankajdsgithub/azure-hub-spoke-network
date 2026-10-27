@@ -6,7 +6,7 @@ Azure portfolio repository for enterprise architecture, cloud transformation, an
 
 - Azure solution architecture
 - Cloud migration and landing-zone design
-- Platform engineering and GitOps
+- Platform engineering, GitOps, and Kubernetes
 - Security, governance, and DevSecOps
 
 ## Purpose
